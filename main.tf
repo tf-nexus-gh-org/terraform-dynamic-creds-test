@@ -8,7 +8,8 @@ terraform {
 }
 
 provider "aws" {
-  # No credentials configured - relies on dynamic credentials from HCP Terraform
+  # No credentials configured 
+  # relies on dynamic credentials from HCP Terraform
   region = "us-east-1"
 }
 
