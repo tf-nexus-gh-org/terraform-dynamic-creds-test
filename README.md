@@ -1,4 +1,4 @@
-# My AWS Dynamic Credentials Test Module
+# AWS Dynamic Credentials Test Module
 
 A minimal Terraform module to verify AWS dynamic credentials work with HCP Terraform registry module testing.
 
