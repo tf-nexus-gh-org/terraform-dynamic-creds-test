@@ -3,7 +3,7 @@ run "verify_aws_identity" {
 
   assert {
     condition     = data.aws_caller_identity.current.account_id != ""
-    error_message = "AWS caller identity should return an account ID"
+    error_message = "Error: AWS caller identity should return an account ID"
   }
 
   assert {
