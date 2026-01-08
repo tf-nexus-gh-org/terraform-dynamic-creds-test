@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  # No credentials configured 
+  # No credentials configured for OIDC test 
   # relies on dynamic credentials from HCP Terraform
   region = "us-east-1"
 }
